@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDC0A684288A05CE00BAC657 /* addTrashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC0A683288A05CE00BAC657 /* addTrashViewController.swift */; };
+		BDC0A686288A066200BAC657 /* listTrashTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC0A685288A066200BAC657 /* listTrashTableViewController.swift */; };
+		BDC0A688288A06CF00BAC657 /* viewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC0A687288A06CF00BAC657 /* viewItemViewController.swift */; };
 		BDF5025628872A2F008E1268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5025528872A2F008E1268 /* AppDelegate.swift */; };
 		BDF5025828872A2F008E1268 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5025728872A2F008E1268 /* SceneDelegate.swift */; };
 		BDF5025A28872A2F008E1268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5025928872A2F008E1268 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BDC0A683288A05CE00BAC657 /* addTrashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTrashViewController.swift; sourceTree = "<group>"; };
+		BDC0A685288A066200BAC657 /* listTrashTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listTrashTableViewController.swift; sourceTree = "<group>"; };
+		BDC0A687288A06CF00BAC657 /* viewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewItemViewController.swift; sourceTree = "<group>"; };
 		BDF5025228872A2F008E1268 /* kabApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kabApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF5025528872A2F008E1268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDF5025728872A2F008E1268 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 				BDF5025528872A2F008E1268 /* AppDelegate.swift */,
 				BDF5025728872A2F008E1268 /* SceneDelegate.swift */,
 				BDF5025928872A2F008E1268 /* ViewController.swift */,
+				BDC0A683288A05CE00BAC657 /* addTrashViewController.swift */,
+				BDC0A685288A066200BAC657 /* listTrashTableViewController.swift */,
+				BDC0A687288A06CF00BAC657 /* viewItemViewController.swift */,
 				BDF5025B28872A2F008E1268 /* Main.storyboard */,
 				BDF5026128872A30008E1268 /* Assets.xcassets */,
 				BDF5026328872A30008E1268 /* LaunchScreen.storyboard */,
@@ -141,9 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC0A686288A066200BAC657 /* listTrashTableViewController.swift in Sources */,
+				BDC0A684288A05CE00BAC657 /* addTrashViewController.swift in Sources */,
 				BDF5025A28872A2F008E1268 /* ViewController.swift in Sources */,
 				BDF5025628872A2F008E1268 /* AppDelegate.swift in Sources */,
 				BDF5026028872A2F008E1268 /* kabApp.xcdatamodeld in Sources */,
+				BDC0A688288A06CF00BAC657 /* viewItemViewController.swift in Sources */,
 				BDF5025828872A2F008E1268 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
