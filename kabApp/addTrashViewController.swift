@@ -27,6 +27,7 @@ class addTrashViewController: UIViewController, UIImagePickerControllerDelegate,
     }
 
     //ACTION - done button, store name and size to core data
+    
     @IBAction func doneTapped(_ sender: Any) {
         // we have to grab this view context to be able to work with Core Data
           if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
